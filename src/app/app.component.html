@@ -1,0 +1,13 @@
+<h1>Parsing Data JSON Dari URL Angular 9</h1>
+<h3>User List</h3>
+<ul class="list-group">
+  <li *ngFor="let user of users" class="list-group-item">
+      {{ user.name }}
+  </li>
+</ul>
+<h3>Address</h3>
+<ul class="list-group">
+  <li *ngFor="let user of users" class="list-group-item">
+      {{ user.address.street }}, {{ user.address.suite }}, {{ user.address.city }}, {{ user.address.zipcode }}
+  </li>
+</ul>
