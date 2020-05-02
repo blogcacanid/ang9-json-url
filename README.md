@@ -15,7 +15,7 @@ git clone https://github.com/blogcacanid/ang9-json-url.git
 cd ang9-json-url
 
 ## Selanjutnya jalankan perintah berikut:
-- composer install
+- npm install
 
 ## Testing
 Jalankan Angular 9 dengan menggunakan perintah berikut:
